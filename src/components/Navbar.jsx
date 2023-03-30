@@ -50,7 +50,7 @@ function Navbar() {
             <a href="#investigacion">Investigacion</a>
           </li>
           <li>
-            <a href="#">Comprar</a>
+            <a href="/comprar">Comprar</a>
           </li>
         </ul>
       </div>
