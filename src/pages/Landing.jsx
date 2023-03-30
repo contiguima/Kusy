@@ -34,7 +34,35 @@ const Landing = () => {
           <div className="nosotrosImagen"></div>
         </div>
       </section>
-      <section className="proyecto" id="proyecto"></section>
+      <section className="proyecto" id="proyecto">
+        <div className="proyectoProductivo">
+          <h1>Proyecto productivo</h1>
+          <div className="proyectoCard">
+            <div className="proyectoCardText">
+              <h2>Linea de ropa interior</h2>
+              <ul>
+                <li> Producido artesanalmente en el Barrio Las Tunas</li>
+                <li> Diseños propios </li>
+                <li> Talles grandes </li>
+                <li>Práctico y cómodo</li>
+              </ul>
+
+              <button className="verProductosBtn"> Ver Productos</button>
+            </div>
+            <div className="proyectoCardImage">
+              <div className="proyectoCardImageRow">
+                <div className="proyectoImagen"></div>
+                <div className="proyectoImagen"></div>
+              </div>
+              <div className="proyectoCardImageRow">
+                <div className="proyectoImagen"></div>
+                <div className="proyectoImagen"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="proyectoMaquillaje"> </div>
+      </section>
       <section className="capacitacion" id="capacitacion"></section>
       <section className="investigacion" id="investigacion"></section>
       <Footer />
