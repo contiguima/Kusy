@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&family=Unna:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&family=Unna:wght@400;700&display=swap");
 
 :root {
   /*Colores*/
-  --blue: #A2CDF2;
-  --dark-blue: #2B5375;
-  --main-green: #8FBF97;
-  --medium-green: #A7D9AA;
-  --white: #f2F2F2;
+  --blue: #a2cdf2;
+  --dark-blue: #2b5375;
+  --main-green: #8fbf97;
+  --medium-green: #a7d9aa;
+  --white: #f2f2f2;
 
   /*Fuentes*/
-  --titulos: 'Unna', serif;
+  --titulos: "Unna", serif;
   --sub-titulos: "Lato", serif;
-  --texto:  'Roboto', sans-serif;
+  --texto: "Roboto", sans-serif;
+}
 
+h1 {
+  font-family: var(--titulos);
 }
