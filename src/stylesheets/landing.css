@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: beige;
-  height: 570px;
+  height: 600px;
 }
 
 .home h1 {
@@ -81,11 +81,21 @@
   padding: 2em;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: var(--main-green);
+  gap: 2em;
+}
+
+.proyectoProductivo,
+.proyectoMaquillaje {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .proyectoProductivo h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -103,6 +113,12 @@
 
 .proyectoCardText {
   margin: 1em;
+  line-height: 3.2em;
+  padding: 1em;
+}
+
+.proyectoCardText h2 {
+  font-size: 34px;
 }
 
 .verProductosBtn {
@@ -116,6 +132,13 @@
   font-size: 18px;
   padding: 1em 2em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border: 0;
+  margin-left: 7em;
+}
+
+.verProductosBtn:hover {
+  cursor: pointer;
+  background-color: var(--blue);
 }
 
 .proyectoCardImage {
@@ -131,4 +154,91 @@
   height: 200px;
   background-color: red;
   margin: 1em;
+}
+
+.infoBtn {
+  background-color: var(--white);
+  color: #00bb2d;
+  font-family: var(--texto);
+  font-weight: bold;
+  height: 60px;
+  max-width: 400px;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 1em 2em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border: 0;
+  margin-left: 7em;
+}
+
+.infoBtn:hover {
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+
+.proyectoMaquillajeImage {
+  background-color: red;
+  min-width: 500px;
+  min-height: 300px;
+}
+
+/*Capacitacion*/
+
+.capacitacion {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--dark-blue);
+  gap: 2em;
+}
+
+.capacitacionText h1 {
+  font-size: 70px;
+}
+
+.capacitacionText {
+  margin: 0 4em;
+  color: var(--white);
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 26px;
+}
+
+.capacitacionImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+}
+
+.capacitacionImage {
+  background-color: red;
+  width: 500px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+/*Investigacion*/
+
+.investigacion {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--main-green);
+  gap: 2em;
+}
+
+.investigacionText h1 {
+  font-size: 70px;
+}
+
+.investigacionText {
+  color: black;
+  line-height: 1.2em;
+  font-size: 26px;
 }

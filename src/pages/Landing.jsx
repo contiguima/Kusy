@@ -46,9 +46,9 @@ const Landing = () => {
                 <li> Talles grandes </li>
                 <li>Práctico y cómodo</li>
               </ul>
-
               <button className="verProductosBtn"> Ver Productos</button>
             </div>
+
             <div className="proyectoCardImage">
               <div className="proyectoCardImageRow">
                 <div className="proyectoImagen"></div>
@@ -61,10 +61,54 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className="proyectoMaquillaje"> </div>
+        <div className="proyectoMaquillaje">
+          <div className="proyectoCard">
+            <div className="proyectoMaquillajeImage"></div>
+            <div className="proyectoCardText">
+              <h2>Maquillaje Profesional</h2>
+              <ul>
+                <li> Cumpleaños </li>
+                <li> Casamientos </li>
+                <li> De día </li>
+                <li> Todos los eventos </li>
+              </ul>
+              <button className="infoBtn"> Más información</button>
+            </div>
+          </div>
+        </div>
       </section>
-      <section className="capacitacion" id="capacitacion"></section>
-      <section className="investigacion" id="investigacion"></section>
+      <section className="capacitacion" id="capacitacion">
+        <div className="capacitacionText">
+          <h1> Capacitación</h1>
+          <p>
+            En Kusy, tuvimos que desarrollar el oficio de la costurería para
+            poder emprender nuestro proyecto productivo, pero también decidimos
+            realizar capacitaciones que amplíen nuestro potencial
+          </p>
+        </div>
+        <div className="capacitacionImages">
+          <div className="capacitacionImage"></div>
+          <div className="capacitacionImage"></div>
+        </div>
+
+        <div className="capacitacionText">
+          <p>
+            <em>Creatividad, inteligencia colectiva, actividades lúdicas</em>
+          </p>
+          <p>
+            <em>Participación de conferencias y eventos</em>
+          </p>
+        </div>
+      </section>
+      <section className="investigacion" id="investigacion">
+        <div className="investigacionText">
+          <h1>Investigacion</h1>
+          <p>
+            Kusy surge originariamente de una investigación social que lleva 6
+            años <br></br> acerca de la creación de capital social en comunidades
+          </p>
+        </div>
+      </section>
       <Footer />
     </>
   );
