@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../stylesheets/landing.css";
+import imgExample from "../assets/images/rojo.png"
 
 const Landing = () => {
   return (
@@ -48,8 +49,9 @@ const Landing = () => {
               </ul>
               <button className="verProductosBtn"> Ver Productos</button>
             </div>
-
+ 
             <div className="proyectoCardImage">
+          
               <div className="proyectoCardImageRow">
                 <div className="proyectoImagen"></div>
                 <div className="proyectoImagen"></div>
@@ -87,8 +89,10 @@ const Landing = () => {
           </p>
         </div>
         <div className="capacitacionImages">
-          <div className="capacitacionImage"></div>
-          <div className="capacitacionImage"></div>
+          <img  src={imgExample} className="capacitacionImage"></img>
+          <img  src={imgExample} className="capacitacionImage"></img>
+
+          
         </div>
 
         <div className="capacitacionText">
