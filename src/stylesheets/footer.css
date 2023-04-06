@@ -1,0 +1,32 @@
+.logoKusy {
+  max-width: 300px;
+  margin: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  background-color: var(--white);
+}
+
+.footer ul {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+}
+.footer li {
+  list-style-type: none;
+  margin: 0 2rem;
+  line-height: 2.3em;
+}
+.footer li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+}
+
+.footer li a:hover {
+  color: var(--dark-blue);
+}

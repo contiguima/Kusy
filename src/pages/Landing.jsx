@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../stylesheets/landing.css";
-import imgExample from "../assets/images/rojo.png"
+import imgExample from "../assets/images/rojo.png";
 
 const Landing = () => {
   return (
@@ -49,9 +49,8 @@ const Landing = () => {
               </ul>
               <button className="verProductosBtn"> Ver Productos</button>
             </div>
- 
+
             <div className="proyectoCardImage">
-          
               <div className="proyectoCardImageRow">
                 <div className="proyectoImagen"></div>
                 <div className="proyectoImagen"></div>
@@ -89,10 +88,16 @@ const Landing = () => {
           </p>
         </div>
         <div className="capacitacionImages">
-          <img  src={imgExample} className="capacitacionImage"></img>
-          <img  src={imgExample} className="capacitacionImage"></img>
-
-          
+          <img
+            src={imgExample}
+            alt="ejemplo"
+            className="capacitacionImage"
+          ></img>
+          <img
+            src={imgExample}
+            alt="ejemplo"
+            className="capacitacionImage"
+          ></img>
         </div>
 
         <div className="capacitacionText">
@@ -109,8 +114,59 @@ const Landing = () => {
           <h1>Investigacion</h1>
           <p>
             Kusy surge originariamente de una investigación social que lleva 6
-            años <br></br> acerca de la creación de capital social en comunidades
+            años <br></br> acerca de la creación de capital social en
+            comunidades
           </p>
+        </div>
+        <div className="investigacionColumns">
+          <img
+            src={imgExample}
+            alt="ejemplo"
+            className="investigacionImage"
+          ></img>
+          <div className="investigacionText">
+            <p>
+              La idea es entender como, a partir de actividades colectivas,
+              enmarcadas dentro de lo que se llama{" "}
+              <span>inteligencia colectiva</span>, se puede crear{" "}
+              <span>capital social</span>
+            </p>
+            <p>
+              Las actividades son diversas y multifacéticas de tal manera de
+              lograr la mayor creatividad en el grupo
+            </p>
+          </div>
+        </div>
+        <div className="investigacionMensaje">
+          <p>
+            Kusy promueve lo que tenemos todas en común y que nos puede cambiar
+            la vida: <b>NUESTRO POTENCIAL</b>
+          </p>
+        </div>
+      </section>
+      <section className="frases">
+        <h1>Nosotras sobre Kusy </h1>
+        <div className="frasesColumns">
+          <img src={imgExample} alt="ejemplo" className="frasesImage"></img>
+          <div className="frasesText">
+            <h2>Nombre</h2>
+            <p>
+              {" "}
+              Reflexión corta sobre el tiempo en Kusy, mensaje para los jóvenes,
+              experiencia emprendiendo, etc
+            </p>
+          </div>
+        </div>
+        <div className="frasesColumns">
+          <img src={imgExample} alt="ejemplo" className="frasesImage"></img>
+          <div className="frasesText">
+            <h2>Nombre</h2>
+            <p>
+              {" "}
+              Reflexión corta sobre el tiempo en Kusy, mensaje para los jóvenes,
+              experiencia emprendiendo, etc
+            </p>
+          </div>
         </div>
       </section>
       <Footer />
