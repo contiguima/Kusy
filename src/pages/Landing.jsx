@@ -13,7 +13,7 @@ const Landing = () => {
           Kusy, un proyecto social productivo que desarrolla el potencial de
           mujeres
         </h1>
-        <button className="homeBtn"> ¡Quiero saber más! </button>
+        <button className="homeBtn"> <a href="#nosotros" >¡Quiero saber más! </a></button>
       </section>
       <section className="nosotros" id="nosotros">
         <div className="nosotrosCopy">
@@ -47,7 +47,7 @@ const Landing = () => {
                 <li> Talles grandes </li>
                 <li>Práctico y cómodo</li>
               </ul>
-              <button className="verProductosBtn"> Ver Productos</button>
+              <button className="verProductosBtn"><a href="/comprar">Ver Productos</a> </button>
             </div>
 
             <div className="proyectoCardImage">

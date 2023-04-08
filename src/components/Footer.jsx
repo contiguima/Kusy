@@ -1,10 +1,10 @@
-import imgExample from "../assets/images/rojo.png";
+import logoKusy from "../assets/images/LogoKusyBg.png";
 import "../stylesheets/footer.css";
 const Footer = () => {
   return (
     <>
       <div className="footer">
-        <img src={imgExample} alt="ejemplo" className="logoKusy"></img>
+        <img src={logoKusy} alt="logoKusy" className="logoKusy"></img>
 
         <ul>
           {" "}

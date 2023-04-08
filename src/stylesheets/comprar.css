@@ -1,0 +1,12 @@
+.comprar{
+   padding: 3em;
+   background-color: var(--dark-blue);
+  }
+
+  .comprar h1{
+   font-size:60px;
+   color: var(--white);
+   text-align: center;
+   }
+ 
+  
