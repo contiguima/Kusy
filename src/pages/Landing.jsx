@@ -2,6 +2,12 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../stylesheets/landing.css";
 import imgExample from "../assets/images/rojo.png";
+import alejandra from "../assets/images/alejandra.png";
+import alicia from "../assets/images/alice.png";
+import veronica from "../assets/images/veronica.png";
+import paca from "../assets/images/paca.png";
+import reina from "../assets/images/reina.png";
+import wpp from "../assets/logos/wpp.png"
 
 const Landing = () => {
   return (
@@ -70,7 +76,7 @@ const Landing = () => {
                 <li> De día </li>
                 <li> Todos los eventos </li>
               </ul>
-              <button className="infoBtn"> Más información</button>
+              <button className="infoBtn"> <img src={wpp} alt="logo whatsapp"/> Más información</button>
             </div>
           </div>
         </div>
@@ -144,27 +150,54 @@ const Landing = () => {
       <section className="frases">
         <h1>Nosotras sobre Kusy </h1>
         <div className="frasesColumns">
-          <img src={imgExample} alt="ejemplo" className="frasesImage"></img>
+          <img src={alejandra} alt="alejandra" className="frasesImage"></img>
           <div className="frasesText">
-            <h2>Nombre</h2>
+            <h2>Alejandra Vega</h2>
             <p>
-              {" "}
-              Reflexión corta sobre el tiempo en Kusy, mensaje para los jóvenes,
-              experiencia emprendiendo, etc
+             "Para mi Kusy fue el comienzo del 'si se puede'. De darme cuenta de que las respuestas están en mi y no en otra persona. De darme cuenta del poder que tenía para ayudar a las demás. Fue descubrirme como empresaria, de hacer algo que me gusta y que permite empoderar a las mujeres. Kusy es decirles a las mujeres que los sueños se hacen realidad; que podemos soñar juntas y crear nuestro propio emprendimiento."
             </p>
           </div>
         </div>
         <div className="frasesColumns">
-          <img src={imgExample} alt="ejemplo" className="frasesImage"></img>
-          <div className="frasesText">
-            <h2>Nombre</h2>
+        <div className="frasesText">
+            <h2>Alicia Siles</h2>
             <p>
-              {" "}
-              Reflexión corta sobre el tiempo en Kusy, mensaje para los jóvenes,
-              experiencia emprendiendo, etc
+              "La verdad es que me sentía muerta en vida. Era casi muda. Tenía terror a las críticas de los demás. Tenía miedo de pasar vergüenza. Kusy cambió mi manera de ver. Entendí que las dificultades son oportunidades. Con cada mujer que llegó pudimos edificar algo. El abrazo de hermandad y acompañamiento que le dieron a mi alma rota fue la clave para enraizarme en esta nueva etapa de mi vida."
+            </p>
+          </div>
+          <img src={alicia} alt="alicia" className="frasesImage"></img>
+          
+        </div>
+        <div className="frasesColumns">
+          <img src={veronica} alt="veronica" className="frasesImage"></img>
+          <div className="frasesText">
+            <h2>Verónica Juárez</h2>
+            <p>
+              "Kusy en mi vida ha sido un increíble aprendizaje. Vimos como muchas situaciones fueron derivando en soluciones y nuevas oportunidades. Tuvimos la posibilidad de conocer nuevos pensamientos y grupos que nos hicieron reflexionar e incorporarlo en nuestras vidas. Amor para todas por cada momento compartido, por cada palabra, por cada brazo, por cado momento que fui escuchada y aconsejada."
             </p>
           </div>
         </div>
+        <div className="frasesColumns">
+        <div className="frasesText">
+            <h2>Paca Antezana</h2>
+            <p>
+              "Adoré cuando en mi vida entró Kusy porque conocí muchas personas optimistas, sencillas y positivas, que ponen el corazón en cada una de sus acciones. Son personas que no piden nada a cambio, que te acarician el alma y enriquecen tu vida dándote confianza, compromiso y oportunidades. Pero, sobre todo, mucho amor y humildad."
+            </p>
+          </div>
+          <img src={paca} alt="paca" className="frasesImage"></img>
+          
+        </div>
+        <div className="frasesColumns">
+          <img src={reina} alt="reina" className="frasesImage"></img>
+          <div className="frasesText">
+            <h2>Reina Castillo</h2>
+            <p>
+              "Kusy apareció en mi vida para hacerme ver, para dejar de estar escondida esperando que algo suceda. Me sentí apoyada para despertarme, para lanzar a esa emprendedora que había en mi y estaba tapada. Lo más lindo es que, cuando ya una se siente con esa autonomía, quiere transmitirlo a otras mujeres para que logren sus objetivos."
+            </p>
+          </div>
+        </div>
+        
+        
       </section>
       <Footer />
     </>

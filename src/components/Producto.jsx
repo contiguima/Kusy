@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheets/producto.css";
+import wpp from "../assets/logos/wpp.png"
 
 function Producto(props) {
   return (
@@ -12,7 +13,7 @@ function Producto(props) {
         <h3>{props.nombre}</h3>
         <p>Talles: {props.talles}</p>
         <p>{props.texto}</p>
-        <button className="card-button">Comprar</button>
+        <button className="card-button"> <img src={wpp} alt="logo whatsapp"/>  COMPRAR</button>
       </div>
     </div>
   );
