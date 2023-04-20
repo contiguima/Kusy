@@ -7,7 +7,15 @@ import alicia from "../assets/images/alice.png";
 import veronica from "../assets/images/veronica.png";
 import paca from "../assets/images/paca.png";
 import reina from "../assets/images/reina.png";
-import wpp from "../assets/logos/wpp.png"
+import wpp from "../assets/logos/wpp.png";
+import nosotrosImagen1 from "../assets/images/nosotrosImagen1.png";
+import nosotrosImagen2 from "../assets/images/nosotrosImagen2.png";
+import nosotrosImagen3 from "../assets/images/nosotrosImagen3.png";
+import productosImagen1 from "../assets/images/productosImagen1.png";
+import productosImagen2 from "../assets/images/productosImagen2.png";
+
+
+
 
 const Landing = () => {
   return (
@@ -16,8 +24,8 @@ const Landing = () => {
       <section className="home" id="home">
         <h1>
           {" "}
-          Kusy, un proyecto social productivo que desarrolla el potencial de
-          mujeres
+          Kusy, un proyecto social productivo en el que toda mujer puede desarrollar su potencial.
+
         </h1>
         <button className="homeBtn"> <a href="#nosotros" >¡Quiero saber más! </a></button>
       </section>
@@ -26,19 +34,16 @@ const Landing = () => {
           <h1> Kusy, </h1>
           <h2>
             {" "}
-            del qechua <em>kusilata</em>: <span>pueblo feliz</span>
+            del quechua <em>Kusillajta</em>: <span>Pueblo Alegre</span>
           </h2>
           <p>
-            Somos un proyecto social productivo, apolítico, no-ideológico
-            centrado en el desarrollo del potencial de comunidades de mujeres a
-            través de acciones colectivas y colaborativas intra-comunidad e
-            inter-comunidad
+          Kusy es un proyecto social productivo, apartidario, centrado en el desarrollo del potencial de comunidades de mujeres a través de acciones colectivas y colaborativas intra-comunidad e inter-comunidad.
           </p>
         </div>
         <div className="nosotrosImagenes">
-          <div className="nosotrosImagen"></div>
-          <div className="nosotrosImagen"></div>
-          <div className="nosotrosImagen"></div>
+        <img src={nosotrosImagen1} alt="imagen sobre el proyecto" className="nosotrosImagen"></img>
+        <img src={nosotrosImagen2} alt="imagen sobre el proyecto" className="nosotrosImagen"></img>
+        <img src={nosotrosImagen3} alt="imagen sobre el proyecto" className="nosotrosImagen"></img>
         </div>
       </section>
       <section className="proyecto" id="proyecto">
@@ -46,20 +51,21 @@ const Landing = () => {
           <h1>Proyecto productivo</h1>
           <div className="proyectoCard">
             <div className="proyectoCardText">
-              <h2>Linea de ropa interior</h2>
+              <h2>Linea de ropa interior para mujeres</h2>
               <ul>
                 <li> Producido artesanalmente en el Barrio Las Tunas</li>
                 <li> Diseños propios </li>
                 <li> Talles grandes </li>
                 <li>Práctico y cómodo</li>
+                <li>Para usar todo el día</li>
               </ul>
               <button className="verProductosBtn"><a href="/comprar">Ver Productos</a> </button>
             </div>
 
             <div className="proyectoCardImage">
               <div className="proyectoCardImageRow">
-                <div className="proyectoImagen"></div>
-                <div className="proyectoImagen"></div>
+              <img src={productosImagen1} alt="ropa interior para mujeres, producida artesanalmente, de gran calidad" className="proyectoImagen"></img>
+              <img src={productosImagen2} alt="ropa interior para mujeres, producida artesanalmente, de gran calidad" className="proyectoImagen"></img>
               </div>
             
             </div>

@@ -1,13 +1,17 @@
 import React from "react";
 import "../stylesheets/producto.css";
-import wpp from "../assets/logos/wpp.png"
+import wpp from "../assets/logos/wpp.png";
+
+
 
 function Producto(props) {
+
   return (
     <div className="card">
-      <div
+      <img
         className="card-image"
-        style={{ backgroundImage: `url(${props.imagen})` }}
+        src={props.imagen}
+        alt = {props.nombre}
       />
       <div className="card-text">
         <h3>{props.nombre}</h3>

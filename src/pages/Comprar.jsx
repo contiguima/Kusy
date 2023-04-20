@@ -3,19 +3,21 @@ import Footer from "../components/Footer";
 import "../stylesheets/comprar.css";
 import Producto from "../components/Producto";
 import Slider from "../components/Slider";
+import productosImagen1 from "../assets/images/productosImagen1.png";
+import productosImagen2 from "../assets/images/productosImagen2.png";
+
 
 const productosArr = [
   <Producto
     nombre="Producto 1"
-    talles="talles ejemplo"
-    texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor nunc, volutpat eu tellus non."
-    imagen="https://topitop.vteximg.com.br/arquivos/ids/244647-1000-1248/1851116_1jpg.jpg?v=637871905424770000"
+    talles="Todos los talles"
+    texto="Simple, cómodo, para usar en el día a día. Producción artesanal y de calidad. Varios colores."
+    imagen= {productosImagen1}
   />,
   <Producto
     nombre="Producto 2"
     talles="talles ejemplo"
-    texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor nunc, volutpat eu tellus non."
-    imagen="https://static.dafiti.com.co/p/calvin-klein-3794-8809112-1-catalog-new.jpg"
+    texto="Simple, cómodo, para usar en el día a día. Producción artesanal y de calidad. Varios colores."    imagen={productosImagen2}
   />
 ];
 const Comprar = () => {
